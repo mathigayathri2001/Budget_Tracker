@@ -31,15 +31,14 @@ SO THAT my account balance is accurate.
 
 ## Description
 This PWA web application will be used to add deposit and withdrawal transactions. When internet connection available, the balance
- will be caluated online and show the result. When there is no internet connection available, it stores the entered transaction in index.db and later on, when the internet connections is back, it loads the transaction from index.db into the databae server, calculate and update the results.
+will be caluated online and show the result. When there is no internet connection available, it stores the entered transaction in index.db and later on, when the internet connections is back, it loads the transaction from index.db into the databae server, calculate and update the results.
 
  
 
 ## Instructions
 * Run npm install to install all dependencies. 
-* Run node server, To use the application locally, 
-* Open the  http://localhost:3000 
-* The Budget Tracker app is live on Heroku for you to use as well.
+* Run node server, To use the application locally, Open the   http://localhost:3000 
+* The Budget Tracker app is live on Heroku for you to use as  well.
 
 
 ## Built with

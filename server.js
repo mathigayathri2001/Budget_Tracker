@@ -4,7 +4,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-/** Create the Express App and apply global middleware */
+// Create the Express App and apply global middleware
 const app = express();
 
 app.use(logger("dev"));
