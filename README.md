@@ -13,11 +13,11 @@
 ![Website](https://img.shields.io/website?down_color=grey&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fmathigayathri2001.github.io%2Fportfolio_2%2F)
 ## User-story
 ```
-As a user, I want to be able to view create and track daily workouts. 
-I want to be able to log multiple exercises in a workout on a given day. 
-I should also be able to track the name, type, weight, sets, reps, and duration of exercise. 
-If the exercise is a cardio exercise, I should be able to track my distance traveled.
+As A traveller,
 
+I WANT to be able to track my withdrawals and deposits with or without a /internet connection
+
+SO THAT my account balance is accurate.
 ```
 
 ## Table of Content 
@@ -32,7 +32,10 @@ If the exercise is a cardio exercise, I should be able to track my distance trav
    * [Visuals](#visuals)
 
 ## Description
-This application allows the user to create and track their workouts. They can keep track of multiple exercises in a workout. The user has the option to record either a resistance or cardio exercise. A resistance exercise will contain the following information: name, weight, sets, reps and duration, while a cardio exercise has name, duration and distance traveled.
+This PWA web application will be used to add deposit and withdrawal transactions. When internet connection available, the balance
+ will be caluated online and show the result. When there is no internet connection available, it stores the entered transaction in index.db and later on, when the internet connections is back, it loads the transaction from index.db into the databae server, calculate and update the results.
+
+ 
 
 ## Instructions
 * Run npm install to install all dependencies. 
