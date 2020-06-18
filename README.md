@@ -56,6 +56,9 @@ will be caluated online and show the result. When there is no internet connectio
 ## Visuals
 ![](demo/demo.gif)
 
+### online/offline transaction through app
+![](demo/demo2.gif)
+
 ## Installation
 Run npm install to install all dependencies. To use the application locally run server.js
 
